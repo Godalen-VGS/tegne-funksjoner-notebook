@@ -7,7 +7,12 @@
       "extensions": [
         "ms-python.python",
         "ms-toolsai.jupyter"
-      ]
+      ],
+      "settings": {
+        // KI-autofullføring er slått av, så elevene skriver koden selv
+        "github.copilot.enable": { "*": false },
+        "editor.inlineSuggest.enabled": false
+      }
     }
   }
 }
